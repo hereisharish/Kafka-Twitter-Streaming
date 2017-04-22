@@ -77,5 +77,4 @@ public class TwitterStreamingKafkaProducer {
 			System.out.println(e);
 		}
 	}
-	
 }
