@@ -1,6 +1,7 @@
-# twitter-stream
+# Kafka-Twitter-Streaming
 Streaming Twitter Data using Apache Kafka
 
+Contains both Producer and Consumer Code
 
 # Goto below url for step-by-step tutorial
 
