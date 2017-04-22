@@ -66,7 +66,7 @@ public class TwitterStreamingKafkaProducer {
 		client.stop();
 	}
 
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		try {
 			String consumerKey = args[0];
 			String consumerSecret = args[1];
@@ -76,17 +76,6 @@ public class TwitterStreamingKafkaProducer {
 		} catch (InterruptedException e) {
 			System.out.println(e);
 		}
-	}*/
-	
-	public static void main(String[] args) {
-		try {
-			String consumerKey = "IN9EM5QQQ1U069nn96KGuLNCJ";
-			String consumerSecret = "w1bgquVZ48oHpFZRZcjHtRr5HSQrmfPImYKEolh6wtkS1b5213";
-			String token = "141534772-dpWAkeIWpa9Rj1GEwMSeXdxuazHZcVwGW4GMVDmz";
-			String secret = "61vEcMcSR7ZlN1NdcgOCLKA4p9PLkjsIc9phGIGgnIID0"; 
-			TwitterStreamingKafkaProducer.run(consumerKey, consumerSecret, token, secret);
-		} catch (InterruptedException e) {
-			System.out.println(e);
-		}
 	}
+	
 }
