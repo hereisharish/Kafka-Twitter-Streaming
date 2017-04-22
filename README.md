@@ -1,17 +1,7 @@
 # twitter-stream
-Twitter-Kafka Data Pipeline
+Streaming Twitter Data using Apache Kafka
 
-#Requirements :
 
-Apache Kafka 0.8
-Twitter Developer account ( for API Key, Secret etc.)
-Apache Zookeeper ( required for Kafka)
-Oracle JDK 1.7 (64 bit )
+# Goto below url for step-by-step tutorial
 
-#Build Environment :
-
-Eclipse
-Apache Maven 2/3
-
-Detailed steps available here - 
-http://saurzcode.in/2015/02/kafka-producer-using-twitter-stream/
+http://generalbigdata.blogspot.in/2017/04/real-time-streaming-twitter-data-with.html
